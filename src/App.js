@@ -3,6 +3,7 @@ import "./App.css";
 
 function App() {
   const [score, setScore] = useState(0);
+  const [counter, setCounter] = useState(0);
   const hitBoxRef = useRef(null);
   useEffect(() => {
     const hitBox = hitBoxRef.current;
@@ -16,7 +17,8 @@ function App() {
         hitBox.style.left = `${Math.floor(Math.random() * bounds.x)}px`;
         hitBox.style.top = `${Math.floor(Math.random() * bounds.y)}px`;
         hitBox.style.visibility = "visible";
-      }, 700);
+        setCounter((c) => c + 1);
+      }, 800);
       return () => {
         clearInterval(timer);
       };
@@ -35,7 +37,7 @@ function App() {
           padding: "15px",
         }}
       >
-        {score} Hits
+        {counter} Targets | {score} Hits | {counter - score} Miss
       </div>
       <div
         onClick={() => {
@@ -49,6 +51,7 @@ function App() {
           position: "absolute",
           borderRadius: "50%",
           visibility: "hidden",
+          cursor: "pointer",
         }}
       ></div>
     </div>
