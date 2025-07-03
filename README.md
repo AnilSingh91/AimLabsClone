@@ -1,1 +1,1 @@
-Try at [Aim Lab Clone]([https://aimlabsclone.netlify.app/]).
+Try at https://aimlabsclone.netlify.app/ 
