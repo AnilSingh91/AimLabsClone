@@ -16,7 +16,7 @@ function App() {
         hitBox.style.left = `${Math.floor(Math.random() * bounds.x)}px`;
         hitBox.style.top = `${Math.floor(Math.random() * bounds.y)}px`;
         hitBox.style.visibility = "visible";
-      }, 500);
+      }, 700);
       return () => {
         clearInterval(timer);
       };
