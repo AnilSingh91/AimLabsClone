@@ -136,8 +136,6 @@ function App() {
           }}
         ></div>
       )}
-      https://u8260587.ct.sendgrid.net/ls/click?upn=u001.OrrwBXogtRJMdo-2BFPbuxd1UP9XII9Sb98zYVGB4EESAhCKVh8SoDiHDvRCb6RCclIEg72RfDvynwjoSBf1Pne38QpyGW38W-2ByGOkA7WMjynUeXbr3Wiu6BITmyrJRyCx7sUovYaav-2BsNDO52id1F3CXlE8prwFKAywzMv2lfr2GEtKdUA-2FcSkveRyafVVz5lTkNCP9d5IFDEN0shTQFC5Y81m-2BdlGQX6J3zppb4sT97UDykcjPWpuLlu79m6WAItipwnGkKdfG5HWAbmgjzBQOZsMYjisWIOad3pm5MXJpyiz-2F4HFhnqiuu9REKNe8KVGZDoLWjrNAxtQJmg9Bu5OA-3D-3Dnuvq_q8QxhZK3MdtIdCYLboIhCfqZV9zVhvUxki1OclTkugZK8VYmfvdymXzVX0-2BojL9f-2Bg13dCNvJX2nuio9IgR7kdDNKJP0uFyz99VqvvKClM96BLsse7-2F0VSis6VfShxRZlJz23E57c3Edm6yOKRd8FDOpEGXIKXXO-2BuiTXp24gMi4qVOFI4T8bSQw1d9fkC0oIur-2FZPbENA4cp0wXIfNYHw-3D-3D
-    </div>
   );
 }
 
