@@ -136,6 +136,7 @@ function App() {
           }}
         ></div>
       )}
+      </div>
   );
 }
 
